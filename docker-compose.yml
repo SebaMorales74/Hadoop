@@ -1,6 +1,4 @@
-version: '3' 
 services:
-
   namenode:
     image: bde2020/hadoop-namenode:2.0.0-hadoop2.7.4-java8
     container_name: namenode
@@ -98,8 +96,6 @@ services:
       - SPARK_MASTER=spark://spark-master:7077
       - CORE_CONF_fs_defaultFS=hdfs://namenode:8020
       - HIVE_CORE_CONF_javax_jdo_option_ConnectionURL=jdbc:postgresql://hive-metastore/metastore
-    depends_on:
-      - spark-master
     ports:
       - 8081:8081
     env_file:
