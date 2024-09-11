@@ -28,6 +28,17 @@ Finalmente, vamos a probar que docker funciona correctamente.
 ```sh
 sudo docker run hello-world
 ```
+Vamos a instalar git y clonar el repositorio con los siguientes 3 comandos:
+```sh
+sudo apt-get install git
+git --version
+git clone https://github.com/juliopez/Hadoop.git
+```
+
+Ingresamos a la carpeta cambiado de directorio con:
+```sh
+cd ./Hadoop
+```
 
 Ahora, debes de componer los contenedores con el siguiente comando:
 ```sh
