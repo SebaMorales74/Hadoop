@@ -32,7 +32,7 @@ Vamos a instalar git y clonar el repositorio con los siguientes 3 comandos:
 ```sh
 sudo apt-get install git
 git --version
-git clone https://github.com/juliopez/Hadoop.git
+git clone https://github.com/SebaMorales74/Hadoop.git
 ```
 
 Ingresamos a la carpeta cambiado de directorio con:
