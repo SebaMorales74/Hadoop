@@ -31,7 +31,11 @@ sudo docker run hello-world
 Vamos a instalar git y clonar el repositorio con los siguientes 3 comandos:
 ```sh
 sudo apt-get install git
+```
+```sh
 git --version
+```
+```sh
 git clone https://github.com/SebaMorales74/Hadoop.git
 ```
 
